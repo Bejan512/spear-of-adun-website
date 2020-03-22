@@ -7,7 +7,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: 'Six Caps';
+  src: local('Six Caps'), url(./fonts/SixCaps-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Share Tech Mono';
+  src: local('Share Tech Mono'), url(./fonts/ShareTechMono-Regular.ttf) format('truetype');
 }

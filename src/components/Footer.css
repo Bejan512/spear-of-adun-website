@@ -1,0 +1,15 @@
+.footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.footer-item {
+    color: #FDFDFB;
+    font-family: "Share Tech Mono";
+    text-shadow: 3px 3px 3px black;
+    font-size: 3rem;
+    text-align: right;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 25px;
+}

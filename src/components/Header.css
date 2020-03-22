@@ -1,0 +1,21 @@
+.title {
+  font-size: 176px;
+  font-family: "Six Caps";
+  color: #FDFDFB;
+  text-shadow: 3px 3px 3px black;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 25px;
+}
+.subtitle {
+    font-size: 1.5rem;
+    font-family: "Share Tech Mono";
+    color: #FDFDFB;
+    text-shadow: 3px 3px 3px black;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    padding-bottom: 15px;
+}
