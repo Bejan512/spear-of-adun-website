@@ -1,4 +1,5 @@
 import React from 'react';
+import {ReactTitle} from 'react-meta-tags';
 import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
@@ -9,6 +10,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
+      <ReactTitle title="StarCraft Artificial Intelligence" />
       <Header />
       <MainContent />
       <Footer />

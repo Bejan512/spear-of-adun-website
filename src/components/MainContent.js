@@ -4,6 +4,8 @@ import "./MainContent.css"
 function MainContent() {
     return (
         <div className="MainContent">
+            <div className="vignette">
+            </div>
             <video poster="023.png" autoPlay="autoplay" muted loop>
                 <source src="../../public/../Videos/dragoons.mp4" type="video/mp4" />
             </video>
