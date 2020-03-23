@@ -1,0 +1,19 @@
+.about-page {
+    background-color:#262320;
+    height: 100vh;
+}
+.about-title {
+    font-size: 6rem;
+    padding-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #AE8641;
+    text-shadow: 1px 1px 1px black;
+
+}
+
+.about-subtitle {
+    font-size: 1.4rem;
+    color: #AE8641;
+    text-shadow: 1px 1px 1px black;
+
+}

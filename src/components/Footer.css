@@ -6,11 +6,16 @@
 
 }
 .footer-item {
-    color: #FDFDFB;
+    color: #F2E5D7;
     font-family: "Share Tech Mono";
     text-shadow: 3px 3px 3px black;
     font-size: 2.5rem;
     text-align: right;
     margin-top: 0;
     margin-right: .6rem;
+    user-select: none;
+}
+
+.link {
+    text-decoration: none;
 }

@@ -3,7 +3,7 @@ import "./MainContent.css"
 
 function MainContent() {
     return (
-        <div className="MainContent">
+        <div className="main-content">
             <div className="vignette">
             </div>
             <video poster="023.png" autoPlay="autoplay" muted loop>
