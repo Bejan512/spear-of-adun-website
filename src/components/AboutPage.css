@@ -1,19 +1,80 @@
+.about-video {
+    margin-top: 50px;
+    outline: none;
+    width: 400px;
+    height: auto;
+    box-shadow: 3px 5px 1px black;
+    z-index: 10;
+}
+
 .about-page {
     background-color:#262320;
     height: 100vh;
 }
 .about-title {
-    font-size: 6rem;
+    font-family: "Inconsolata";
+    font-size: 5rem;
     padding-top: 1.5rem;
-    margin-bottom: 1.5rem;
     color: #AE8641;
     text-shadow: 1px 1px 1px black;
 
 }
 
 .about-subtitle {
+    font-family: "Inconsolata";
     font-size: 1.4rem;
     color: #AE8641;
     text-shadow: 1px 1px 1px black;
+    margin-bottom: 25px;
+}
 
+.about-content {
+    font-family: "Inconsolata";
+    text-align: justify;
+    color: #CCDDE2;
+    margin-top: 10px;
+}
+
+.about-hr {
+    border-color: #CCDDE2;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 600px) {
+    .about-hr {
+        margin-left: 5px;
+        margin-right: 5px;
+
+    }
+    .about-video {
+        margin-left: 5px;
+        margin-right: 25px;
+    }
+
+    .about-title {
+        font-size: 3.5rem;
+    }
+
+    .about-content{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .about-video {
+        width: 70%;
+    }
+
+    .about-main-container {
+        margin: auto;
+        width: 48%;
+    }
+
+    .about-content {
+        font-size: 1.5rem;
+        width: 82%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
