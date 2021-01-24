@@ -16,7 +16,7 @@ function AboutPage() {
         </p>
         <p className="about-content">
           Currently the bot knows how to play the Protoss race, and is capable
-          of defeating the built in AI of the game.
+          of defeating the built-in AI of the game.
         </p>
         <a
           href="https://sscaitournament.com/"
@@ -49,10 +49,15 @@ function AboutPage() {
             Spear of Adun was created using JBWAPI, a pure java implementation
             of BWAPI (Brood War API).
           </li>
+          <li className="about-content">
+            In the spirit of competition, BWAPI allows bots to interface with
+            the game while only revealing visible parts of the game state to the
+            bot, enabling the creation of fair, non-cheating AIs.
+          </li>
         </list>
         <p className="about-content">
-          You can take a look at some of the videos below for examples of Spear
-          of Adun going up against the built in bot.
+          You can take a look at the video below for an example of Spear
+          of Adun going up against the preprogrammed game AI.
         </p>
         <video
           className="about-video"
