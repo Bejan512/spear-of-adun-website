@@ -67,7 +67,7 @@ function AboutPage() {
           muted
           controls
         >
-          <source src="../../public/../Videos/dragoons.mp4" type="video/mp4" />
+          <source src="../../public/../Videos/broodwarai-introvideo.mp4" type="video/mp4" />
         </video>
         <p className="video-caption">Spear of Adun vs. Standard Zerg AI</p>
         <div className="about-github-icon">
